@@ -4,21 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
-      crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/homepage.css">
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/index.css" />
     <title>Gift a Life</title>
+    <link rel="icon" href="../img/main_logo.png" type="image/x-icon" />
   </head>
   <body>
     <div id="main"></div>
-    <h1>Homepage</h1>
+    <div id="nav"></div>
+    <div class="container-fluid"></div>
+    <section class="back">
+      <div class="main-container">
+        <div class="container infotext">
+          <h2>Lorem Ipsum</h2>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+          Enim aliquam maxime blanditiis, perferendis suscipit ut molestiae veritatis 
+          eos magni sed aliquid vel ea sit accusamus ad reiciendis adipisci esse delectus 
+          consequatur odit. At optio officia, est consectetur corrupti alias itaque 
+          architecto sapiente explicabo dignissimos ab id culpa modi voluptatum nesciunt!
+        </div>
+    </section>
   </body>
   <script>
-    $(function() {
+    $(function () {
       $("#main").load("common.html");
+      $("#nav").load("nav.html");
     });
   </script>
-  
 </html>

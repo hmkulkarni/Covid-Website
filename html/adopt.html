@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gift a life</title>
-</head>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" 
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
-      crossorigin="anonymous"></script>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adopt a child</title>
+    <link rel="stylesheet" href="../css/adopt.css" />
+  </head>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
+  <body>
     <div id="adopt"></div>
     <div id="nav"></div>
-    <div>
-        <p style="float: left;" ><img src="../img/adopt2.jpg" height="500px" width="900px" ></p>
-        <h1 style = " font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: 30px; padding-right: 10px;">Ray of Hope</h1>
-        <p style = "margin-top: 40px; font-size:30px;">In the battle of life and death during this pandemic, many children have 
-            lost their parents and close ones. It is our moral <br> duty to give a "Ray of Hope" to these children. 
-            Let’s connect them to parents who want to adopt and give them a better life.</p>
+    <div class="mainContent">
+      <p class="image">
+        <img src="../img/adopt2.jpg" height="500px" width="900px" />
+      </p>
+      <h1 class="hope">Ray of Hope</h1>
+      <p class="descHope">
+        In the battle of life and death during this pandemic, many children have
+        lost their parents and close ones. It is our moral <br />
+        duty to give a "Ray of Hope" to these children. Let’s connect them to
+        parents who want to adopt and give them a better life.
+      </p>
+      <a
+        href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__TImsOlUNURVMlFDTDNGQ0w0WFlEN0pTN1E4NFg5Sy4u"
+      >
+        <button class="btn btn-secondary">Click Here</button>
+      </a>
     </div>
-    <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__TImsOlUNURVMlFDTDNGQ0w0WFlEN0pTN1E4NFg5Sy4u">
-        <button>click here</button>
-        
-    </a>
-</body>
-<script>
-    $(function() {
+  </body>
+  <script>
+    $(function () {
       $("#adopt").load("common.html");
       $("#nav").load("nav.html");
     });

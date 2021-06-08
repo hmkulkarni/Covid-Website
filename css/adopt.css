@@ -1,0 +1,18 @@
+.mainContent {
+    padding-top: 35px;
+}
+
+.image {
+  float: left;
+}
+
+.hope {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 30px;
+  padding-right: 10px;
+}
+
+.descHope {
+  margin-top: 40px;
+  font-size: 30px;
+}
