@@ -9,10 +9,10 @@
 .hope {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 30px;
-  padding-right: 10px;
 }
 
 .descHope {
-  margin-top: 40px;
+  margin-top: 25px;
   font-size: 30px;
+  line-height: normal;
 }
