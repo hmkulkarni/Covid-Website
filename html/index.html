@@ -20,13 +20,17 @@
     <section class="back">
       <div class="main-container">
         <div class="container infotext">
-          <h2>Lorem Ipsum</h2>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim aliquam
-          maxime blanditiis, perferendis suscipit ut molestiae veritatis eos
-          magni sed aliquid vel ea sit accusamus ad reiciendis adipisci esse
-          delectus consequatur odit. At optio officia, est consectetur corrupti
-          alias itaque architecto sapiente explicabo dignissimos ab id culpa
-          modi voluptatum nesciunt!
+          <h1 class="info-head">Gift A Life</h1>
+          <br><br><br>
+          <p class="info-paragraph">
+            Want to help out COVID affected people? You've come to the right place.
+            We are the link between you and the distressed victims, trying to fulfill
+            their needs. <br><br>
+            Please feel free to browse through this website and kindly drop by a
+            response if possible. <br><br>
+            Let's come together and soften the blow on those who were hit hard,
+            physically, mentally, and emotionally.
+          </p>
         </div>
       </div>
     </section>
@@ -59,21 +63,17 @@
 
     <section id="contact">
       <div class="main-container contact">
-        <h1>Contact Us</h1>
-        <div class="container">
-          <div class="card">
+        <h1 class="cnt">Contact Us</h1>
+        <div class="container align-items-center">
+          <div class="card contactForm">
             <div class="card-body">
               <form action="#">
                 <div class="mb-3">
                   <label for="fullName" class="form-label">Full Name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="fullName"
-                  />
+                  <input type="text" class="form-control" id="fullName" required/>
                 </div>
                 <div class="mb-3">
-                  <label for="email" class="form-label">Email address</label>
+                  <label for="email" class="form-label" required>Email address</label>
                   <input
                     type="email"
                     class="form-control"
@@ -86,13 +86,17 @@
                 </div>
                 <div class="mb-3">
                   <label for="contact" class="form-label">Contact Number</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="contact"
-                  />
+                  <input type="text" class="form-control" id="contact" required />
                 </div>
-                <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+                <div class="mb-3">
+                  <label for="query" class="form-label">Query or Suggestion</label>
+                  <textarea name="query" id="address" class="form-control" cols="30" rows="4" required></textarea>
+                </div>
+                <div class=btn-contact>
+                  <button type="submit" class="btn btn-md btn-primary">
+                  Submit
+                </button>
+                </div>
               </form>
             </div>
           </div>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 .nav-link:hover {
     background: #ff6a5f;
     color: white;
@@ -5,8 +7,13 @@
     border-radius: 5px;
 }
 
+.nav-link {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
 .back {
-    background: rgba(20, 20, 20, 0.7) url('../img/bg2.jpg');
+    background: rgba(10, 10, 10, 0.8) url('../img/bg2.jpg');
     background-size: cover;
     background-blend-mode: overlay;
 }

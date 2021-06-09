@@ -1,5 +1,16 @@
-.infotext {
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&display=swap');
+
+.info-head {
+    color: #339dc7;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 60px;
+    text-decoration: underline rgba(255, 255, 255, 0.897);
+}
+
+.info-paragraph {
     color: white;
+    font-size: 30px;
 }
 
 .main-container {
@@ -15,13 +26,45 @@
 
 .abt {
     font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
 }
+
 .descAbout {
     margin-top: 30px;
     font-size: 26px;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .contact {
     background-color: #F8F8F8;
     flex-direction: column;
+    height: 95vh;
+}
+
+.card.contactForm {
+    max-width: 60%;
+    margin-left: 300px;
+    margin-top: 15px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px 1px lightgrey;
+}
+
+.form-label::after {
+    content: " *";
+    color: red;
+}
+
+.form-label {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+
+.cnt {
+    font-family: 'Ubuntu', sans-serif;
 }
