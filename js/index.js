@@ -5,6 +5,7 @@ con.addEventListener("submit", (e) => {
     title: "Thank you for contacting!",
     text: "We will reach out to you as soon as possible.",
     icon: "success",
-    button: "Close",
+    confirmButtonText: "Close",
+    confirmButtonColor: "#007bff",
   });
 });
