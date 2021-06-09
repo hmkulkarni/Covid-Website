@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&display=swap');
 
+.container-fluid {
+    padding: 0 !important;
+    margin: 0 !important;
+}
 .info-head {
     color: #339dc7;
     font-family: 'Ubuntu', sans-serif;
