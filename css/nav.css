@@ -23,3 +23,12 @@
     width: 100%;
     top: 0;
 }
+
+.navbar-brand {
+    margin-right: -60px;
+}
+
+.mylogo {
+    width: 40%;
+    height: auto;
+}
