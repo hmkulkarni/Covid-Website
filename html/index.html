@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="../css/index.css" />
-    <link rel="import" href="bootstrap.html">
+    <link rel="stylesheet" href="sweetalert2.min.css">
     <title>Gift a Life</title>
     <link rel="icon" href="../img/main_logo.png" type="image/x-icon" />
   </head>
@@ -70,7 +70,7 @@
           <div class="container align-items-center">
             <div class="card contactForm">
               <div class="card-body">
-                <form action="#">
+                <form id="myContactForm">
                   <div class="mb-3">
                     <label for="fullName" class="form-label">Full Name</label>
                     <input
@@ -106,12 +106,12 @@
                     />
                   </div>
                   <div class="mb-3">
-                    <label for="query" class="form-label"
-                      >Query or Suggestion</label
+                    <label for="suggest" class="form-label"
+                      >Queries or Suggestions</label
                     >
                     <textarea
-                      name="query"
-                      id="address"
+                      name="suggest"
+                      id="suggest"
                       class="form-control"
                       cols="30"
                       rows="4"
@@ -122,6 +122,7 @@
                     <button type="submit" class="btn btn-md btn-primary">
                       Submit
                     </button>
+                    <button class="btn btn-res btn-outline-warning" type="reset">Reset</button>
                   </div>
                 </form>
               </div>
@@ -131,6 +132,10 @@
       </section>
     </div>
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="sweetalert2.all.min.js"></script>
+  <script src="sweetalert2.min.js"></script>
+  <script src="../js/index.js"></script>
   <script>
     $(function () {
       $("#main").load("common.html");
