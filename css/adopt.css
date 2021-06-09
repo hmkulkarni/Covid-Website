@@ -31,6 +31,7 @@
   line-height: normal;
   text-align: justify;
   margin-right: 10px;
+  padding-right: 20px;
 }
 
 .second {
@@ -46,5 +47,10 @@
   font-size: 30px;
   line-height: normal;
   text-align: justify;
+  padding-left: 20px;
 }
 
+.but{
+  padding-left: 200px;
+  font-family: 'Ubuntu', sans-serif;
+}
