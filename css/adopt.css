@@ -1,20 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&display=swap');
+
 .mainContent {
     padding-top: 35px;
 }
 
-.image {
-  float: left;
+.first {
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .hope {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin-top: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 50px;
+  align-items: center;
 }
 
 .descHope {
+  font-family: 'IBM Plex Sans', sans-serif;
   margin-top: 25px;
   font-size: 30px;
   line-height: normal;
   text-align: justify;
   margin-right: 10px;
 }
+
+.second {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.image2{
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin-top: 45px;
+  font-size: 30px;
+  line-height: normal;
+  text-align: justify;
+}
+
