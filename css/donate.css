@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&display=swap');
+
+.maincontent {
+    padding-top: 65px;
+}
+
+
+.donate {
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.descDonate {
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin-top: 25px;
+  font-size: 30px;
+  line-height: normal;
+  text-align: justify;
+  margin-right: 20px;
+  padding-right: 50px;
+}
+
+.descDonate2 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin-top: 80px;
+  font-size: 30px;
+  line-height: normal;
+  text-align: justify;
+  margin-right: 20px;
+  padding-right: 50px;
+  padding-left: 30px;
+}
+
+.img1 {
+    margin-left: 1rem;
+}
+
+.btn.btn-donate {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 27px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
