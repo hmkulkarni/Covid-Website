@@ -5,10 +5,19 @@
     padding: 0 !important;
     margin: 0 !important;
 }
+
+.back {
+    max-height: 100vh;
+}
+.firstContent {
+    padding-top: 170px;
+}
+
 .info-head {
-    color: #339dc7;
+    color: #28a7da;
     font-family: 'Ubuntu', sans-serif;
     font-size: 50px;
+    padding-bottom: 35px;
     text-decoration: underline rgba(255, 255, 255, 0.897);
 }
 
@@ -46,8 +55,8 @@
 }
 
 .card.contactForm {
-    max-width: 60%;
-    margin-left: 300px;
+    max-width: 80%;
+    margin-left: 110px;
     margin-top: 15px;
     border: 1px solid lightgrey;
     border-radius: 5px;
